@@ -1,2 +1,2 @@
 # DSA
- Daily Practice dsa Questions
+ Daily Practice DSA Questions
