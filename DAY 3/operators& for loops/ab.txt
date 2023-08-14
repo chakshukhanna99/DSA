@@ -1,0 +1,49 @@
+
+    int y = x++;      x ki badhgyi prr y mai assign nhi hui
+
+####"break" is used to exit from the current loop.
+####"return" statement is used to exit from the current function.
+####"continue" is used to skip the current iteration of a loop and continue with the next iteration.
+
+
+int i = 1;
+while(i < 3) {
+    int j = 1;
+    while(j < 5) {
+        if(j == 3) {
+            break;
+        }
+        cout << j << " ";
+        j++;
+    }
+    i++;
+}
+-Loop 1 First Iteration: i = 1
+--Loop 2 iterates till j = 3 but breaks before printing j = 3 so initial output will be 1 2
+-Loop 1 Second Iteration: i = 2
+--Loop 2 iterates till j = 3 but breaks before printing j = 3 so final output will be 1 2 1 2
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{    
+         int x= 10, y = 1;
+         if (++x >10 || x / 0 == 0)
+            cout << y;
+         else
+             cout << x;
+} 
+
+
+#include <iostream>
+using namespace std;
+int main()
+{   
+    int x = 15;
+    int y = x++;
+    int z = ++x;
+    cout << y << “ “ << z;
+}
+15 17     
