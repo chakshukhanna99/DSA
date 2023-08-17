@@ -1,0 +1,41 @@
+reverse word wise    doubt     https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+
+
+in c++ strings are character arrays
+char b[10]
+10 bytes sting 
+no loop acts differently
+cin>>b;
+chakshu in last null char acii =0
+works as terminator
+cout<<b;
+name prints until null  '\0'
+char input[4]
+0123
+abc\0
+abc
+ab
+ab
+
+space tab newline problem cin chakshu khanna  ->  chakshu
+cin.getline(strname,length,); 3rd para by default next line we can change
+only till len printed
+
+
+
+
+STRCMP()
+0 EQUAL
+NON ZERO NOT EQL
+
+STRCPY(A,B)
+
+A IS DESTINATION
+
+STRCPY(A,"HELLO")
+
+
+COPY FIRST N CHAR  FROM ONE TO OTHER
+
+STRNCPY(A,B,N)
+
