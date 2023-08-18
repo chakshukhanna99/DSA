@@ -39,3 +39,7 @@ COPY FIRST N CHAR  FROM ONE TO OTHER
 
 STRNCPY(A,B,N)
 
+2d arrayy
+
+stored in mmry as  r*c
+[2][1]=7   12th index
