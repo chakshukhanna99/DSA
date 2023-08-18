@@ -1,5 +1,6 @@
 reverse word wise    doubt     https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
-
+reverse each word
+compress the string
 
 in c++ strings are character arrays
 char b[10]
