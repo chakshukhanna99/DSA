@@ -1,7 +1,6 @@
 // #include<iostream>
 // using namespace std;
 // int last(int arr[],int n,int x){
- 
 //     if(n==0){
 //         return -1;
 //     }
@@ -57,10 +56,8 @@ int lastIndex(int input[], int size, int x) {
 //         return n-1;
 //     }
 //     int so=approach(arr+1,n-1,x);
-//     return so+1;
-   
+//     return so+1;   
 // }
-
 int main() {
     int arr[] = {5, 6, 13, 6, 5};
     int n = 5;

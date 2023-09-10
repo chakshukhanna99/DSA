@@ -12,6 +12,4 @@ int main(){
      cin>>n;
      int x = length(n);
      cout<<x;
-
-
 }
