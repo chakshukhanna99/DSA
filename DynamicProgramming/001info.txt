@@ -1,0 +1,5 @@
+Remembering the past is known as dynamic programming
+
+Memoization
+Tabulation (sc and tc)
+Improving Space Complexity 
